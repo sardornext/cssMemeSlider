@@ -10,27 +10,36 @@
 
 <body>
   <div class="slider">
-    <div class="slide active">
-      <img id="slide-img" src="" alt="">
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+    <input type="radio" name="slider" id="slide4">
 
-    </div>
-
-    <div class="slider-info">
-      <p class="caption" id="slide-caption"></p>
-
-      <div class="controls">
-        <div class="indicators">
-          <span class="dot active"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-        </div>
+    <div class="slides">
+      <div class="slide">
+        <img src="./assets/giphy.webp" alt="Pedro">
+        <p class="caption">Pedro, Pedro, Pedro, Pedro, Pè</p>
       </div>
+      <div class="slide">
+        <img src="./assets/giphy(1).webp" alt="Vast and beautiful desert">
+        <p class="caption">The function of good software is to make the complex appear to be simple.</p>
+      </div>
+      <div class="slide">
+        <img src="./assets/giphy(2).webp" alt="Meme 3">
+        <p class="caption">I want full score Please</p>
+      </div>
+      <div class="slide">
+        <img src="./assets/giphy(3).webp" alt="Meme 4">
+        <p class="caption">Cheers xexe</p>
     </div>
 
+    <div class="controls">
+      <label for="slide1" class="dot"></label>
+      <label for="slide2" class="dot"></label>
+      <label for="slide3" class="dot"></label>
+      <label for="slide4" class="dot"></label>
+    </div>
   </div>
-
-
-  <script src="script.js"></script>
 </body>
 
 </html>
