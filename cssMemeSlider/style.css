@@ -106,4 +106,24 @@ input#slide4:checked ~ .controls label[for="slide4"] {
   .caption {
     font-size: 1rem;
   }
+
+  .slide img {
+    height: 60vh;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .caption {
+    font-size: 0.8rem;
+  }
+
+ .slide img {
+    height: 60vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
 }
